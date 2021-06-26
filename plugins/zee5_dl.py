@@ -1,7 +1,7 @@
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logger = loggiing.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 import os
@@ -424,7 +424,7 @@ async def zee5_execute(bot, update):
 
                 await bot.edit_message_text(
                     text=script.AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🙌🏻 SHARE ME 🙌🏻", url="tg://msg?text=%2A%2AHai%20%E2%9D%A4%EF%B8%8F%2C%2A%2A%20%0A__Today%20i%20just%20found%20out%20an%20intresting%20and%20Powerful__%20%2A%2AInnocent%20Zee5%20Bot%2A%2A%20__for%20Free%F0%9F%A5%B0.__%20%20%0A%2A%2ABot%20Link%20%3A%20%40InnocentZee5Bot%2A%2A%20%F0%9F%94%A5) ]],
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🙌🏻 SHARE OUR YT  🙌🏻",url="https://youtube.com/channel/UCSt7Ym2J8xT5NWGTwOvuYAw")]],
                     chat_id=update.message.chat.id,
                     message_id=update.message.message_id,
                     disable_web_page_preview=True
