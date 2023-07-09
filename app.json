@@ -7,7 +7,7 @@
     "downloader"
   ],
 
-  "repository": "https://github.com/Luckyboy27/innocentzee5Bot",
+  "repository": "https://github.com/vansh876/innocentzee5Bot",
   
   "env": {
     "WEBHOOK": {
@@ -48,7 +48,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
